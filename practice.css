@@ -1,0 +1,30 @@
+#div1{
+    width: 436px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+#box1{
+    width: 200px;
+    height: 200px;
+    border: 9px solid black;
+    padding: 4px;
+    background-color: rgb(36, 148, 168);
+}
+#box2{
+    align-self: flex-end;
+    border: 6px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-top: 15px solid black;
+    border-bottom: 15px solid black;
+}
+#box3{
+    width: 180px;
+    height: 180px;
+    border: 9px solid black;
+    padding: 4px;
+    margin-left: 20px;
+    background-color: red;
+}
